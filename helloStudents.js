@@ -14,4 +14,4 @@ students.forEach(student => {
 // 3. Print out the number of last names starting with the letter D
 // e.g. Count of last names starting with D is 1
 let lastNameLetter = students.filter(student => student.lastName.startsWith("D"));
-console.log(lastNameLetter.length);
+console.log('Count of last names starting with D is' +  ' ' + lastNameLetter.length);
